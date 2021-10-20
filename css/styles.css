@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+body {
+    background: linear-gradient(89.98deg, #2E3B66 5.98%, #1D2540 39.15%, #0D0D0D 94.08%);
+}
+
+header {
+    background: linear-gradient(90deg, #05746A 0%, #0E0E0E 100%);
+}
+
+.navigation {
+    height: 216px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    height: 195px;
+    background-size: cover;
+}
+
+.searchbar {
+    width: 232px;
+    height: 32px;
+    border-radius: 20px;
+    text-indent: 10px;
+    font-family: "open sans";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: "open sans";
+    font-weight: 600;
+}
+
+.navigation ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+i {
+    color: white;
+}
+
+.fa-user {
+    font-size: 32px;
+}
+
+.fa-cog {
+    font-size: 32px;
+}
+
+.hero-banner {
+    height: 600px;
+}
+
+.header-picture {
+    background-image: url("../images/control.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -110px;
+}
+
+h1 {
+    color: white;
+    font-family: "exo";
+    font-size: 36px;
+}
+
+.red {
+    color: #ED1C24;
+}
+
+.tagline-box {
+    width: 530px;
+    height: 178px;
+    position: absolute;
+    bottom: 86px;
+    left: 70px;
+}
