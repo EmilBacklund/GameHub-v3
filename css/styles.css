@@ -41,7 +41,7 @@ header {
 }
 
 .searchbar {
-  max-width: 232px;
+  width: 232px;
   height: 32px;
   border-radius: 20px;
   text-indent: 10px;
@@ -77,7 +77,7 @@ i {
 }
 
 .hero-banner {
-  height: 600px;
+  height: 800px;
   position: relative;
 }
 
@@ -124,7 +124,7 @@ button {
   color: white;
   text-align: center;
   font-size: 20px;
-  border-width: 5px;
+  border-width: 7px;
   border-radius: 0px 0px 40px 0px;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -152,14 +152,19 @@ button {
   transform: translateY(-62px);
 }
 
+
+
+.flex-items {
+  display: flex;
+  justify-content: space-between;
+}
+
 .cyberpunk-description {
   width: 530px;
   height: 520px;
   margin-top: 70px;
-}
-
-.flex-items {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -182,13 +187,14 @@ h3 {
   background-color: #ed1c24;
 }
 
-h2 {
+.underline {
   font-size: 36px;
   font-weight: 500;
   font-family: 'Exo';
   border-bottom: 3px solid #ed1c24;
   color: white;
-  display: inline-block;
+  width: fit-content;
+  margin-bottom: 40px;
 }
 
 .p-bigger {
@@ -199,8 +205,127 @@ h2 {
 .about-us {
   width: 530px;
   height: 544px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.slot-machines {
-  width: ;
+.about-us-picture {
+  width: 530px;
+  background-image: url("../images/slot-machines.png");
+  background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ border-radius: 54px;
+}
+
+.margin-bottom {
+  margin-bottom: 310px;
+}
+
+.circle-profile {
+  width: 530px;
+  height: 530px;
+  border-radius: 50%;
+  background: rgba(6, 0, 0, 0.4);
+}
+
+.profile-picture {
+  width: 136.8px;
+  height: 136.8px;
+}
+
+h4 {
+  font-family: "open sans";
+  font-size: 31px;
+  font-weight: lighter;
+  text-decoration: underline 1px;
+  color: white;
+}
+
+.drbrave-text {
+  width: 375px;
+  height: 134px;
+  font-family: "open sans";
+  font-weight: normal;
+  font-style: italic;
+  text-align: center;
+}
+
+.center-drbrave {
+  height: 530px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrows {
+  height: 530px;
+  width: 530px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position:absolute;
+  font-size: 60px;
+}
+
+.fa-arrow-left {
+  color: #ed1c24;
+}
+
+.fa-arrow-right {
+  color: #ed1c24;
+}
+
+.community-text {
+  height: 530px;
+  width: 530px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer {
+  height: 260px;
+  background: #1D2540;
+}
+
+.icon-size {
+  width: 68px;
+}
+
+.youtube {
+  width: 59px;
+  height: 59px;
+  transform: translateY(6px);
+}
+
+.twitch {
+  transform: translateY(2.5px);
+  width: 66px;
+  height: 66px;
+}
+
+.facebook {
+  width: 66px;
+  height: 66px;
+  transform: translateY(2px);
+}
+
+.footer-box {
+  width: 530px;
+  height: 260px;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.flex-icons {
+  display: flex;
+  justify-content: space-between;
 }
