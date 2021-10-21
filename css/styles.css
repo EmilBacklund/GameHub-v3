@@ -1,128 +1,206 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    max-width: 1300px;
-    margin: 0 auto;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
 body {
-    background: linear-gradient(89.98deg, #2E3B66 5.98%, #1D2540 39.15%, #0D0D0D 94.08%);
+  background: linear-gradient(
+    89.98deg,
+    #2e3b66 5.98%,
+    #1d2540 39.15%,
+    #0d0d0d 94.08%
+  );
+}
+
+p {
+  color: white;
+  font-family: 'open sans';
+  font-size: 24px;
 }
 
 header {
-    background: linear-gradient(90deg, #05746A 0%, #0E0E0E 100%);
+  background: linear-gradient(90deg, #05746a 0%, #0e0e0e 100%);
 }
 
 .navigation {
-    height: 216px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
+  height: 216px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
 }
 
 .logo {
-    height: 195px;
-    background-size: cover;
+  height: 195px;
+  background-size: cover;
 }
 
 .searchbar {
-    max-width: 232px;
-    height: 32px;
-    border-radius: 20px;
-    text-indent: 10px;
-    font-family: "open sans";
-    font-size: 14px;
-    font-weight: 500;
-    border-width: 0;
+  max-width: 232px;
+  height: 32px;
+  border-radius: 20px;
+  text-indent: 10px;
+  font-family: 'open sans';
+  font-size: 14px;
+  font-weight: 500;
+  border-width: 0;
 }
 
 a {
-    text-decoration: none;
-    color: white;
-    font-family: "open sans";
-    font-weight: 600;
+  text-decoration: none;
+  color: white;
+  font-family: 'open sans';
+  font-weight: 600;
 }
 
 .navigation ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 20px;
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
 }
 
 i {
-    color: white;
+  color: white;
 }
 
 .fa-user {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 .fa-cog {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 .hero-banner {
-    height: 600px;
-    position: relative;
+  height: 600px;
+  position: relative;
 }
 
 .header-picture {
-    background-image: url("../images/control.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: -110px;
+  background-image: url('../images/control.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 h1 {
-    color: white;
-    font-family: "exo";
-    font-size: 45px;
-    font-weight: bold;
+  color: white;
+  font-family: 'exo';
+  font-size: 45px;
+  font-weight: 600;
 }
 
 .red {
-    color: #ED1C24;
+  color: #ed1c24;
+}
+
+.red3 {
+  color: #ed1c24;
+  font-weight: normal;
 }
 
 .tagline-box {
-    width: 530px;
-    height: 178px;
-    position: absolute;
-    top: 86px;
-    left: 70px;
+  width: 530px;
+  height: 178px;
+  position: absolute;
+  top: 86px;
+  left: 0px;
 }
 
 .flex-buttons {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 button {
-    cursor: pointer;
-    background-color: #0d0d0d;
-    border-color: #ed1c24;
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    border-width: 5px;
-    border-radius: 0px 0px 40px 0px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    width: 148.5px;
-    height: 54px;
-    border-style: solid;
-    font-family: "Exo";
-    font-weight: 500;
-    margin-top: 30px;
-  }
+  cursor: pointer;
+  background-color: #0d0d0d;
+  border-color: #ed1c24;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  border-width: 5px;
+  border-radius: 0px 0px 40px 0px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 148.5px;
+  height: 54px;
+  border-style: solid;
+  font-family: 'Exo';
+  font-weight: 500;
+  margin-top: 30px;
+}
 
-  .tagline-box2 {
-      width: 490px;
-      position: absolute;
-      bottom: 86px;
-      right: 70px;
-  }
+.tagline-box2 {
+  width: 530px;
+  position: absolute;
+  bottom: 86px;
+  right: 0px;
+}
+
+.less-important {
+  font-weight: 500;
+}
+
+.cyberpunk {
+  max-width: 530px;
+  transform: translateY(-62px);
+}
+
+.cyberpunk-description {
+  width: 530px;
+  height: 520px;
+  margin-top: 70px;
+}
+
+.flex-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+h3 {
+  font-size: 45px;
+  font-family: 'Exo';
+  font-weight: 500;
+}
+
+.circle {
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 36px;
+}
+
+.red2 {
+  background-color: #ed1c24;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 500;
+  font-family: 'Exo';
+  border-bottom: 3px solid #ed1c24;
+  color: white;
+  display: inline-block;
+}
+
+.p-bigger {
+  font-size: 28px;
+  font-weight: lighter;
+}
+
+.about-us {
+  width: 530px;
+  height: 544px;
+}
+
+.slot-machines {
+  width: ;
+}
