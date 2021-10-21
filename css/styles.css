@@ -30,13 +30,14 @@ header {
 }
 
 .searchbar {
-    width: 232px;
+    max-width: 232px;
     height: 32px;
     border-radius: 20px;
     text-indent: 10px;
     font-family: "open sans";
     font-size: 14px;
     font-weight: 500;
+    border-width: 0;
 }
 
 a {
@@ -66,6 +67,7 @@ i {
 
 .hero-banner {
     height: 600px;
+    position: relative;
 }
 
 .header-picture {
@@ -78,7 +80,8 @@ i {
 h1 {
     color: white;
     font-family: "exo";
-    font-size: 36px;
+    font-size: 45px;
+    font-weight: bold;
 }
 
 .red {
@@ -89,6 +92,37 @@ h1 {
     width: 530px;
     height: 178px;
     position: absolute;
-    bottom: 86px;
+    top: 86px;
     left: 70px;
 }
+
+.flex-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    cursor: pointer;
+    background-color: #0d0d0d;
+    border-color: #ed1c24;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border-width: 5px;
+    border-radius: 0px 0px 40px 0px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 148.5px;
+    height: 54px;
+    border-style: solid;
+    font-family: "Exo";
+    font-weight: 500;
+    margin-top: 30px;
+  }
+
+  .tagline-box2 {
+      width: 490px;
+      position: absolute;
+      bottom: 86px;
+      right: 70px;
+  }
