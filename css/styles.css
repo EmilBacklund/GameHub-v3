@@ -54,12 +54,14 @@ header {
 a {
   text-decoration: none;
   color: white;
-  font-family: 'open sans';
-  font-weight: 600;
+  font-family: 'exo';
+  font-weight: 500;
+  font-size: 18px;
 }
 
-a:active {
-  background-color: #0D0D0D;
+ul li a:hover {
+  color: #0D0D0D;
+  font-weight: bold;
 }
 
 .navigation ul li {
@@ -76,8 +78,18 @@ i {
   font-size: 32px;
 }
 
+.fa-user:hover {
+  cursor: pointer;
+  color: #ed1c24;
+}
+
 .fa-cog {
   font-size: 32px;
+}
+
+.fa-cog:hover {
+  cursor: pointer;
+  color: #ed1c24;
 }
 
 .hero-banner {
@@ -138,6 +150,10 @@ button {
   font-family: 'Exo';
   font-weight: 500;
   margin-top: 30px;
+}
+
+button:hover {
+  box-shadow: #ed1c24 0px 0px 20px 0px;
 }
 
 .tagline-box2 {
@@ -277,10 +293,22 @@ h4 {
 
 .fa-arrow-left {
   color: #ed1c24;
+  transition: 0.6s;
+}
+
+.fa-arrow-left:hover {
+  cursor: pointer;
+  color: white;
 }
 
 .fa-arrow-right {
   color: #ed1c24;
+  transition: 0.6s;
+}
+
+.fa-arrow-right:hover {
+  cursor: pointer;
+  color: white;
 }
 
 .community-text {
@@ -354,4 +382,9 @@ h6 {
 .fa-arrow-up {
   font-size: 32px;
   color: #ed1c24;
+}
+
+.red2:hover {
+  cursor: pointer;
+  background-color: white;
 }
