@@ -4,7 +4,7 @@
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 414px;
   margin: 0 auto;
 }
 
@@ -17,38 +17,34 @@ body {
   );
 }
 
-p {
-  color: white;
-  font-family: 'open sans';
-  font-size: 24px;
-}
-
 header {
   background: linear-gradient(90deg, #05746a 0%, #0e0e0e 100%);
 }
 
+p {
+  color: white;
+  font-family: 'open sans';
+  font-size: 16px;
+}
+
 .navigation {
-  height: 216px;
+  height: 112px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
 }
 
+.fa-bars {
+  display: inherit;
+}
+
 .logo {
-  height: 195px;
-  background-size: cover;
+  height: 85px;
 }
 
 .searchbar {
-  width: 232px;
-  height: 32px;
-  border-radius: 20px;
-  text-indent: 10px;
-  font-family: 'open sans';
-  font-size: 14px;
-  font-weight: 500;
-  border-width: 0;
+  display: none;
 }
 
 a {
@@ -84,20 +80,16 @@ i {
 }
 
 .fa-cog {
-  font-size: 32px;
-}
-
-.fa-cog:hover {
-  cursor: pointer;
-  color: #ed1c24;
+  display: none;
 }
 
 .hero-banner {
-  height: 800px;
+  height: 414px;
   position: relative;
 }
 
 .header-picture {
+  height: 100%;
   background-image: url('../images/control.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -107,7 +99,7 @@ i {
 h1 {
   color: white;
   font-family: 'exo';
-  font-size: 45px;
+  font-size: 22px;
   font-weight: 600;
 }
 
@@ -121,11 +113,14 @@ h1 {
 }
 
 .tagline-box {
-  width: 530px;
-  height: 178px;
+  width: 240px;
+  height: 104px;
   position: absolute;
   top: 86px;
-  left: 0px;
+}
+
+.less-important {
+  display: none;
 }
 
 .flex-buttons {
@@ -134,45 +129,36 @@ h1 {
 }
 
 button {
-  cursor: pointer;
   background-color: #0d0d0d;
   border-color: #ed1c24;
   color: white;
   text-align: center;
-  font-size: 20px;
-  border-width: 7px;
-  border-radius: 0px 0px 40px 0px;
+  font-size: 12px;
+  border-width: 4px;
+  border-radius: 0px 0px 20px 0px;
   transition-duration: 0.4s;
   cursor: pointer;
-  width: 148.5px;
-  height: 54px;
+  width: 95px;
+  height: 31px;
   border-style: solid;
-  font-family: 'Exo';
+  font-family: 'open sans';
   font-weight: 500;
-  margin-top: 30px;
+  margin-top: 20px;
+}
+
+.client-button {
+  display: none;
 }
 
 button:hover {
   box-shadow: #ed1c24 0px 0px 20px 0px;
 }
 
-.tagline-box2 {
-  width: 530px;
-  position: absolute;
-  bottom: 86px;
-  right: 0px;
-}
-
-.less-important {
-  font-weight: 500;
-}
-
 .cyberpunk {
-  max-width: 530px;
-  transform: translateY(-62px);
+  width: 177px;
+  height: 231px;
+  transform: translateY(-30px);
 }
-
-
 
 .flex-items {
   display: flex;
@@ -180,27 +166,31 @@ button:hover {
 }
 
 .cyberpunk-description {
-  width: 530px;
-  height: 520px;
-  margin-top: 70px;
+  width: 177px;
+  height: 205px;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
+.hide-show {
+  display: none;
+}
+
 h3 {
-  font-size: 45px;
+  font-size: 22px;
   font-family: 'Exo';
   font-weight: 500;
 }
 
 .circle {
-  width: 16px;
-  height: 16px;
+  width: 9px;
+  height: 9px;
   background-color: white;
   border-radius: 50%;
   display: inline-block;
-  margin-top: 36px;
+  margin-top: 20px;
 }
 
 .red2 {
@@ -208,8 +198,8 @@ h3 {
 }
 
 .underline {
-  font-size: 36px;
-  font-weight: 500;
+  font-size: 30px;
+  font-weight: bold;
   font-family: 'Exo';
   border-bottom: 3px solid #ed1c24;
   color: white;
@@ -218,62 +208,62 @@ h3 {
 }
 
 .p-bigger {
-  font-size: 28px;
   font-weight: lighter;
 }
 
 .about-us {
-  width: 530px;
-  height: 544px;
+  width: 177px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .about-us-picture {
-  width: 530px;
+  width: 177px;
+  height: 191px;
   background-image: url("../images/slot-machines.png");
   background-size: cover;
  background-repeat: no-repeat;
  background-position: center;
- border-radius: 54px;
+ border-radius: 20px;
 }
 
 .margin-bottom {
-  margin-bottom: 310px;
+  margin-bottom: 32px;
 }
 
 .circle-profile {
-  width: 530px;
-  height: 530px;
+  width: 177px;
+  height: 177px;
   border-radius: 50%;
   background: rgba(6, 0, 0, 0.4);
 }
 
 .profile-picture {
-  width: 136.8px;
-  height: 136.8px;
+  width: 48px;
+  height: 48px;
 }
 
 h4 {
   font-family: "open sans";
-  font-size: 31px;
+  font-size: 14px;
   font-weight: lighter;
   text-decoration: underline 1px;
   color: white;
 }
 
 .drbrave-text {
-  width: 375px;
-  height: 134px;
+  width: 135px;
+  height: 56px;
   font-family: "open sans";
   font-weight: normal;
   font-style: italic;
   text-align: center;
+  font-size: 10px;
 }
 
 .center-drbrave {
-  height: 530px;
+  height: 177px;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
@@ -281,14 +271,14 @@ h4 {
 }
 
 .arrows {
-  height: 530px;
-  width: 530px;
+  height: 177px;
+  width: 177px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   position:absolute;
-  font-size: 60px;
+  font-size: 21px;
 }
 
 .fa-arrow-left {
@@ -312,16 +302,233 @@ h4 {
 }
 
 .community-text {
-  height: 530px;
-  width: 530px;
+  height: 200px;
+  width: 177px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 footer {
-  height: 260px;
+  height: 180px;
   background: #1D2540;
+}
+
+.icon-size {
+  width: 48px;
+}
+
+.youtube {
+  width: 39px;
+  height: 39px;
+  transform: translateY(6px);
+}
+
+.twitch {
+  transform: translateY(2.5px);
+  width: 46px;
+  height: 46px;
+}
+
+.facebook {
+  width: 46px;
+  height: 46px;
+  transform: translateY(2px);
+}
+
+.footer-box {
+  width: 177px;
+  height: 180px;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.flex-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+p {
+  font-size: 24px;
+}
+
+.navigation {
+  height: 216px;
+}
+
+.hide-show {
+  display: initial;
+}
+
+.logo {
+  height: 195px;
+}
+
+.fa-bars {
+  display: none;
+}
+
+.searchbar {
+  width: 232px;
+  height: 32px;
+  border-radius: 20px;
+  text-indent: 10px;
+  font-family: 'open sans';
+  font-size: 14px;
+  font-weight: 500;
+  border-width: 0;
+  display: inherit;
+}
+
+.fa-cog {
+  font-size: 32px;
+  transition: 0.5s;
+  display: inherit;
+}
+
+.fa-cog:hover {
+  cursor: pointer;
+  color: #ed1c24;
+}
+
+.hero-banner {
+  height: 800px;
+  position: relative;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.tagline-box {
+  width: 530px;
+  height: 178px;
+  position: absolute;
+  top: 86px;
+}
+
+.client-button {
+  display: initial;
+}
+
+button {
+  font-size: 20px;
+  border-width: 7px;
+  border-radius: 0px 0px 40px 0px;
+  width: 148.5px;
+  height: 54px;
+  margin-top: 30px;
+}
+
+.tagline-box2 {
+  width: 530px;
+  position: absolute;
+  bottom: 86px;
+  right: 0px;
+}
+
+.less-important {
+  font-weight: 500;
+  display: inherit;
+}
+
+.cyberpunk {
+  width: 530px;
+  height: 680.39px;
+  transform: translateY(-62px);
+}
+
+.cyberpunk-description {
+  width: 530px;
+  height: 520px;
+  margin-top: 70px;
+}
+
+h3 {
+  font-size: 45px;
+}
+
+.circle {
+  width: 16px;
+  height: 16px;
+}
+
+.underline {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.p-bigger {
+  font-size: 28px;
+}
+
+.about-us {
+  width: 530px;
+  height: 544px;
+}
+
+.about-us-picture {
+  width: 530px;
+  height: 543.984px;
+ border-radius: 54px;
+}
+
+.margin-bottom {
+  margin-bottom: 310px;
+}
+
+.circle-profile {
+  width: 530px;
+  height: 530px;
+  border-radius: 50%;
+  background: rgba(6, 0, 0, 0.4);
+}
+
+.profile-picture {
+  width: 136.8px;
+  height: 136.8px;
+}
+
+h4 {
+  font-size: 31px;
+}
+
+.drbrave-text {
+  width: 375px;
+  height: 134px;
+  font-size: 24px;
+}
+
+.center-drbrave {
+  height: 530px;
+}
+
+.arrows {
+  height: 530px;
+  width: 530px;
+  font-size: 60px;
+}
+
+.community-text {
+  height: 530px;
+  width: 530px;
+}
+
+footer {
+  height: 260px;
 }
 
 .icon-size {
@@ -351,17 +558,6 @@ footer {
   height: 260px;
 }
 
-.footer-flex {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-}
-
-.flex-icons {
-  display: flex;
-  justify-content: space-between;
-}
-
 h5 {
   font-size: 24px;
   font-family: 'Exo';
@@ -387,4 +583,5 @@ h6 {
 .red2:hover {
   cursor: pointer;
   background-color: white;
+}
 }
