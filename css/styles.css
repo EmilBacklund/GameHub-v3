@@ -58,6 +58,10 @@ a {
   font-weight: 600;
 }
 
+a:active {
+  background-color: #0D0D0D;
+}
+
 .navigation ul li {
   list-style: none;
   display: inline-block;
@@ -328,4 +332,26 @@ footer {
 .flex-icons {
   display: flex;
   justify-content: space-between;
+}
+
+h5 {
+  font-size: 24px;
+  font-family: 'Exo';
+  font-weight: 500;
+  color: white;
+  text-decoration: underline;
+}
+
+h6 {
+  font-size: 24px;
+  font-family: 'Exo';
+  font-weight: 500;
+  color: white;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.fa-arrow-up {
+  font-size: 32px;
+  color: #ed1c24;
 }
