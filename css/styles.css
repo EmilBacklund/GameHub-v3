@@ -30,7 +30,7 @@ p {
 .navigation {
   height: 112px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
   align-items: center;
 }
@@ -83,8 +83,18 @@ i {
   display: none;
 }
 
+.fa-bars {
+  font-size: 32px;
+}
+
+.search {
+  width: 42px;
+  position: absolute;
+  transform: translateX(-51px) translateY(-9px);
+}
+
 .hero-banner {
-  height: 414px;
+  height: 240px;
   position: relative;
 }
 
@@ -99,7 +109,7 @@ i {
 h1 {
   color: white;
   font-family: 'exo';
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 600;
 }
 
@@ -113,10 +123,10 @@ h1 {
 }
 
 .tagline-box {
-  width: 240px;
   height: 104px;
   position: absolute;
-  top: 86px;
+  top: 45px;
+  left: 20px;
 }
 
 .less-important {
@@ -124,9 +134,13 @@ h1 {
 }
 
 .flex-buttons {
+  margin-top: 20px;
   display: flex;
-  justify-content: space-between;
 }
+
+.button-margin-right {
+  margin-right: 20px;
+  }
 
 button {
   background-color: #0d0d0d;
@@ -143,7 +157,6 @@ button {
   border-style: solid;
   font-family: 'open sans';
   font-weight: 500;
-  margin-top: 20px;
 }
 
 .client-button {
@@ -162,6 +175,11 @@ button:hover {
 
 .flex-items {
   display: flex;
+  justify-content: space-around;
+}
+
+.flex-items-cyberpunk {
+  display: flex;
   justify-content: space-between;
 }
 
@@ -174,9 +192,22 @@ button:hover {
   justify-content: space-between;
 }
 
-.hide-show {
+.hide-mobile {
   display: none;
 }
+
+.greensky-box {
+  height: 206px;
+  position: relative;
+}
+
+.greensky {
+  background-image: url(../images/greensky.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 h3 {
   font-size: 22px;
@@ -218,6 +249,10 @@ h3 {
   justify-content: space-between;
 }
 
+.about-us-picture-box {
+  height: 235px;
+}
+
 .about-us-picture {
   width: 177px;
   height: 191px;
@@ -226,10 +261,19 @@ h3 {
  background-repeat: no-repeat;
  background-position: center;
  border-radius: 20px;
+ margin-bottom: 20px;
 }
 
 .margin-bottom {
   margin-bottom: 32px;
+}
+
+.margin-bottom-mobile {
+margin-bottom: 100px;
+}
+
+.circle-profile-box {
+  height: 261px;
 }
 
 .circle-profile {
@@ -302,7 +346,7 @@ h4 {
 }
 
 .community-text {
-  height: 200px;
+  height: 249px;
   width: 177px;
   display: flex;
   flex-direction: column;
@@ -352,6 +396,33 @@ footer {
   justify-content: space-between;
 }
 
+h5 {
+  font-size: 20px;
+  font-family: 'Exo';
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+}
+
+h6 {
+  font-size: 22px;
+  font-family: 'Exo';
+  font-weight: 500;
+  color: white;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.fa-arrow-up {
+  font-size: 20px;
+  color: #ed1c24;
+}
+
+.red2:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
 @media screen and (min-width: 1024px) {
 
   .container {
@@ -367,8 +438,12 @@ p {
   height: 216px;
 }
 
-.hide-show {
+.hide-mobile {
   display: initial;
+}
+
+.hide-desktop {
+  display: none;
 }
 
 .logo {
@@ -423,6 +498,16 @@ h1 {
   display: initial;
 }
 
+.flex-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+}
+
+.button-margin-right {
+  margin-right: 0px;
+  }
+
 button {
   font-size: 20px;
   border-width: 7px;
@@ -430,6 +515,10 @@ button {
   width: 148.5px;
   height: 54px;
   margin-top: 30px;
+}
+
+.flex-items {
+  justify-content: space-between;
 }
 
 .tagline-box2 {
@@ -559,29 +648,16 @@ footer {
 }
 
 h5 {
-  font-size: 24px;
-  font-family: 'Exo';
-  font-weight: 500;
-  color: white;
-  text-decoration: underline;
+  font-size: 22px;
 }
 
 h6 {
   font-size: 24px;
-  font-family: 'Exo';
-  font-weight: 500;
-  color: white;
-  display: inline-block;
   margin-right: 20px;
 }
 
 .fa-arrow-up {
   font-size: 32px;
-  color: #ed1c24;
 }
 
-.red2:hover {
-  cursor: pointer;
-  background-color: white;
-}
 }

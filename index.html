@@ -33,14 +33,17 @@
               alt="Game Hub logo"
             />
           </a>
-          <ul>
+          <ul class="hide-mobile">
             <li><a class="nav-header" href="/">Home</a></li>
             <li><a class="nav-header" href="/">Games</a></li>
             <li><a class="nav-header" href="/">About</a></li>
             <li><a class="nav-header" href="/">Community</a></li>
           </ul>
           <input class="searchbar" type="text" placeholder="Search" />
-          <i class="fas fa-user fa-lg"></i>
+          <div>
+            <img class="hide-desktop search" src="/images/icons/search2.png" alt="Search here">
+            <i class="fas fa-user fa-lg"></i>
+          </div>
           <i class="fas fa-cog fa-lg"></i>
         </div>
       </div>
@@ -51,7 +54,7 @@
               <h1>We’re <span class="red">Game Hub</span>,
               </br> The universe of games.</h1>
               <div class="buttons flex-buttons">
-                <button>Login</button>
+                <button class="button-margin-right">Login</button>
                 <button>Register</button>
                 <button class="client-button">Client</button>
               </div>
@@ -68,12 +71,12 @@
           <h3><span class="red">Cyberpunk</span></h3>
           <p>The new update has a lot of new features. Cyberpunk is predicted to be the next top competitive game in e-sport.</p>
         </br>
-        <div class="hide-show">
+        <div class="hide-mobile">
           <p><strong>Description:</strong></p>
           <p>Cyberpunk is a tactical fiction slashing game, involving two teams with 5 players in each team.</p>
           <p>Every game has 25 rounds and the team thats wins 13 of them wins the game.</p>
         </div>
-        <div class="flex-items">
+        <div class="flex-items-cyberpunk">
           <div>
             <div class="circle"></div>
             <div class="circle red2"></div>
@@ -85,22 +88,32 @@
         </div>
       </div>
     </section>
+    <section class="greensky hide-desktop margin-bottom">
+<div class="container greensky-box">
+  <h1 class="tagline-box">Buy games and sell them later to save money.</h1>
+</div>
+    </section>
+    <h2 class="container underline hide-desktop">About Us</h2>
     <section class="container margin-bottom">
       <div class="flex-items">
         <div class="about-us">
-          <h2 class="underline">About Us</h2>
+          <h2 class="underline hide-mobile">About Us</h2>
           <p><span class="p-bigger">Our vision is to <span class="red3">share</span>.</span></p>
           <br>
           <p>On Game Hub we want to connect people.We want our users to be able to share games with others and share their experience.</p>
           <br>
           <p>With Game Hub you can easily buy new released games, sell games to other, rate games and find new friends to play with.</p>
-          <button>Read More</button>
+          <button class="hide-mobile">Read More</button>
         </div>
-        <div class="about-us-picture">
+        <div class="about-us-picture-box">
+          <div class="about-us-picture">
+          </div>
+          <button class="hide-desktop">Read More</button>
         </div>
       </div>
     </section>
-    <section class="container flex-items margin-bottom">
+    <h2 class="container hide-desktop underline">Community</h2>
+    <section class="container flex-items margin-bottom margin-bottom-mobile">
       <div class="circle-profile">
         <div class="arrows">
           <i class="fas fa-arrow-left"></i>
@@ -119,7 +132,7 @@
         </div>
       </div>
       <div class="community-text">
-        <h2 class="underline">Community</h2>
+        <h2 class="underline hide-mobile">Community</h2>
         <p>Wheter if you just want to play games with someone, or you’re just stuck on a quest, our community may be the right tool for you.</p>
         <p><span class="red">Share</span> your experience or get inspired.</p>
         <button>Read More</button>
