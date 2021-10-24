@@ -462,11 +462,13 @@ footer {
 
 .footer-box-mobile {
   width: 177px;
+  margin-bottom: 32px;
 }
 
 .smaller {
   font-size: 14px;
   margin-left: 10px;
+  margin-bottom: 32px;
 }
 
 .icon-size {
