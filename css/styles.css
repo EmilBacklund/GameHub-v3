@@ -297,6 +297,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 32px;
 }
 
 .hide-mobile {
@@ -368,11 +369,10 @@ h3 {
  background-repeat: no-repeat;
  background-position: center;
  border-radius: 20px;
- margin-bottom: 20px;
 }
 
 .margin-bottom {
-  margin-bottom: 32px;
+  margin-bottom: 96px;
 }
 
 .circle-profile-box {
