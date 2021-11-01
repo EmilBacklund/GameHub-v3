@@ -60,6 +60,14 @@ a {
   font-size: 18px;
 }
 
+#games-mobile a,
+#home-mobile a,
+#about-mobile a,
+#community-mobile a {
+  color: black;
+  font-weight: bold;
+}
+
 ul li a:hover {
   color: #0d0d0d;
   font-weight: bold;
@@ -86,7 +94,6 @@ ul li a:hover {
   line-height: 42px;
   text-align: center;
   border-radius: 0 0 10px 10px;
-  cursor: pointer;
   font-size: 18px;
   font-family: "exo";
   color: white;
@@ -94,15 +101,23 @@ ul li a:hover {
   box-shadow: 0px 3px 5px -2px #0d0d0d, inset 2px 2px 6px 0px #0d0d0d;
 }
 
+.tabs-button a {
+  width: 100%;
+  display: block;
+}
+
 .home-mobile {
   background: #2a395e;
 }
 
 #home-mobile {
-  color: #0d0d0d;
-  box-shadow: none;
   background: linear-gradient(90.06deg, #057369 0.05%, #075b53 99.95%);
   box-shadow: 0px 3px 5px -2px #0d0d0d;
+}
+
+#games-mobile {
+  box-shadow: 0px 3px 5px -2px #0d0d0d;
+  background: linear-gradient(90deg, #075a53 0%, #0a413c 100%);
 }
 
 .games-mobile {
@@ -114,7 +129,6 @@ ul li a:hover {
 }
 
 #about-mobile {
-  box-shadow: none;
   background: linear-gradient(90deg, #0a413c 0%, #0c2825 100%);
   box-shadow: 0px 3px 5px -2px #0d0d0d;
 }
@@ -125,6 +139,11 @@ ul li a:hover {
 
 .about-mobile:hover {
   color: #0d0d0d;
+}
+
+#community-mobile {
+  box-shadow: 0px 3px 5px -2px #0d0d0d;
+  background: linear-gradient(90deg, #0c2825 0%, #0e0e0e 100%);
 }
 
 .community-mobile {
