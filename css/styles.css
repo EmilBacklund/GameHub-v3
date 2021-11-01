@@ -593,6 +593,10 @@ h2 {
     margin: 0 auto;
   }
 
+  .navigation {
+    justify-content: space-between;
+  }
+
   .navigation ul li {
     list-style: none;
     display: inline-block;
