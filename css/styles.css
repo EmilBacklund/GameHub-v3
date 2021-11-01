@@ -569,6 +569,19 @@ h6 {
   background-color: white;
 }
 
+/* About page start */
+
+.about-body {
+  background: #f2f2f2;
+}
+
+h2 {
+  font-family: "exo";
+  font-size: 24px;
+}
+
+/* About page ends */
+
 @media screen and (min-width: 1028px) {
   .container {
     max-width: 1300px;
