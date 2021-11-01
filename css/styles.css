@@ -28,7 +28,7 @@ header {
 
 p {
   color: white;
-  font-family: 'open sans';
+  font-family: "open sans";
   font-size: 16px;
 }
 
@@ -55,7 +55,7 @@ p {
 a {
   text-decoration: none;
   color: white;
-  font-family: 'exo';
+  font-family: "exo";
   font-weight: 500;
   font-size: 18px;
 }
@@ -88,40 +88,50 @@ ul li a:hover {
   border-radius: 0 0 10px 10px;
   cursor: pointer;
   font-size: 18px;
-  font-family: 'exo';
+  font-family: "exo";
   color: white;
   font-weight: 500;
   box-shadow: 0px 3px 5px -2px #0d0d0d, inset 2px 2px 6px 0px #0d0d0d;
 }
 
-.home {
+.home-mobile {
+  background: #2a395e;
+}
+
+#home-mobile {
   color: #0d0d0d;
   box-shadow: none;
   background: linear-gradient(90.06deg, #057369 0.05%, #075b53 99.95%);
   box-shadow: 0px 3px 5px -2px #0d0d0d;
 }
 
-.games {
+.games-mobile {
   background: #2a395e;
 }
 
-.games:hover {
+.games-mobile:hover {
   color: #0d0d0d;
 }
 
-.about {
+#about-mobile {
+  box-shadow: none;
+  background: linear-gradient(90deg, #0a413c 0%, #0c2825 100%);
+  box-shadow: 0px 3px 5px -2px #0d0d0d;
+}
+
+.about-mobile {
   background: #2a395e;
 }
 
-.about:hover {
+.about-mobile:hover {
   color: #0d0d0d;
 }
 
-.community {
+.community-mobile {
   background: #2a395e;
 }
 
-.community:hover {
+.community-mobile:hover {
   color: #0d0d0d;
 }
 
@@ -210,7 +220,7 @@ i {
 
 .header-picture {
   height: 100%;
-  background-image: url('../images/control.png');
+  background-image: url("../images/control.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -218,7 +228,7 @@ i {
 
 h1 {
   color: white;
-  font-family: 'exo';
+  font-family: "exo";
   font-size: 30px;
   font-weight: 600;
 }
@@ -265,7 +275,7 @@ button {
   width: 95px;
   height: 31px;
   border-style: solid;
-  font-family: 'open sans';
+  font-family: "open sans";
   font-weight: 500;
 }
 
@@ -321,7 +331,7 @@ button:hover {
 
 h3 {
   font-size: 22px;
-  font-family: 'Exo';
+  font-family: "Exo";
   font-weight: 500;
 }
 
@@ -341,7 +351,7 @@ h3 {
 .underline {
   font-size: 30px;
   font-weight: bold;
-  font-family: 'Exo';
+  font-family: "Exo";
   border-bottom: 3px solid #ed1c24;
   color: white;
   width: fit-content;
@@ -366,7 +376,7 @@ h3 {
 .about-us-picture {
   width: 177px;
   height: 191px;
-  background-image: url('../images/slot-machines.png');
+  background-image: url("../images/slot-machines.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -395,7 +405,7 @@ h3 {
 }
 
 h4 {
-  font-family: 'open sans';
+  font-family: "open sans";
   font-size: 14px;
   font-weight: lighter;
   text-decoration: underline 1px;
@@ -405,7 +415,7 @@ h4 {
 .drbrave-text {
   width: 135px;
   height: 56px;
-  font-family: 'open sans';
+  font-family: "open sans";
   font-weight: normal;
   font-style: italic;
   text-align: center;
@@ -515,7 +525,7 @@ footer {
 
 h5 {
   font-size: 20px;
-  font-family: 'Exo';
+  font-family: "Exo";
   font-weight: bold;
   color: white;
   text-decoration: underline;
@@ -523,7 +533,7 @@ h5 {
 
 h6 {
   font-size: 22px;
-  font-family: 'Exo';
+  font-family: "Exo";
   font-weight: 500;
   color: white;
   display: inline-block;
@@ -573,12 +583,17 @@ h6 {
     display: none;
   }
 
+  #desktop-active {
+    color: #0d0d0d;
+    font-weight: bold;
+  }
+
   .searchbar {
     width: 232px;
     height: 32px;
     border-radius: 20px;
     text-indent: 10px;
-    font-family: 'open sans';
+    font-family: "open sans";
     font-size: 14px;
     font-weight: 500;
     border-width: 0;
