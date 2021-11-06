@@ -625,7 +625,6 @@ h2 {
   font-family: "mulish";
   font-size: 16px;
   border-width: 0px;
-  width: 194px;
   background-color: transparent;
   color: #fff;
   margin-bottom: 0px;
@@ -633,6 +632,10 @@ h2 {
 
 .contact input {
   font-size: 16px;
+}
+
+.contact .heading-square {
+  margin-left: 32px;
 }
 
 .form ::placeholder {
@@ -653,6 +656,10 @@ h2 {
   flex-direction: column;
 }
 
+.form-width {
+  max-width: 40%;
+}
+
 .form p {
   margin-bottom: 10px;
 }
@@ -663,7 +670,7 @@ h2 {
 }
 
 .line {
-  max-width: 80%;
+  max-width: 137px;
   height: 2px;
   background-color: #fff;
   margin-top: 12px;
@@ -1010,6 +1017,10 @@ textarea {
     font-family: "exo";
     font-size: 24px;
     display: inline-block;
+  }
+
+  .contact .heading-square {
+    margin-left: 0px;
   }
 
   .heading-square {
