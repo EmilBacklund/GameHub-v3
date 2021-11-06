@@ -711,7 +711,7 @@ textarea {
 }
 
 .contact-info p {
-  display: inline-block;
+  display: inline;
 }
 
 .contact-info p:first-child {
