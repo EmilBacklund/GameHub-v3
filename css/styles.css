@@ -590,7 +590,8 @@ h6 {
 
 .about-box-left {
   display: flex;
-  max-width: 530px;
+  max-width: 414px;
+  padding: 20px;
 }
 
 .about-box-right {
@@ -622,7 +623,7 @@ h2 {
 .contact p,
 .contact input {
   font-family: "mulish";
-  font-size: 22px;
+  font-size: 16px;
   border-width: 0px;
   width: 194px;
   background-color: transparent;
@@ -631,7 +632,7 @@ h2 {
 }
 
 .contact input {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .form ::placeholder {
@@ -640,16 +641,20 @@ h2 {
 }
 
 .form {
-  width: 374px;
+  width: 100%;
   min-height: 440px;
   background-color: #0d0d0d;
   padding: 32px;
   box-sizing: border-box;
-  margin: 32px 0px 32px 0px;
-  border-radius: 5px;
+  margin: 32px 0px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+}
+
+.form p {
+  margin-bottom: 10px;
 }
 
 .how-can-we-help {
@@ -658,10 +663,19 @@ h2 {
 }
 
 .line {
-  max-width: 100%;
+  max-width: 137px;
   height: 2px;
   background-color: #fff;
   margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.line2 {
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 textarea {
@@ -673,20 +687,19 @@ textarea {
   resize: none;
   height: 28px;
   width: 100%;
-  transform: translateY(10px);
 }
 
 .contact-info {
-  width: 530px;
+  width: 100%;
   min-height: 440px;
   background-color: #2d3962;
   padding: 32px;
   box-sizing: border-box;
-  margin: 32px 0px 32px 0px;
-  border-radius: 5px;
+  border-radius: 0 0 5px 5px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  margin-bottom: 32px;
 }
 
 .contact-info p {
@@ -708,6 +721,19 @@ textarea {
 .google-map {
   height: 232px;
   width: 100%;
+}
+
+.flex-spacebetween2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-spacebetween2 img {
+  transform: translateY(5px);
+}
+
+.form button {
+  margin-top: 8px;
 }
 
 /* About page ends */
@@ -973,6 +999,7 @@ textarea {
   .about-box-left {
     display: flex;
     max-width: 530px;
+    padding: 0;
   }
 
   .about-box-right {
