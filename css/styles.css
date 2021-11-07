@@ -178,6 +178,7 @@ i {
 .fa-user:hover {
   cursor: pointer;
   color: #ed1c24;
+  filter: drop-shadow(0px 0px 6px #ed1c24);
 }
 
 .fa-cog {
@@ -851,6 +852,15 @@ textarea {
 }
 
 /* Game page ends */
+/* Profile page starts */
+
+.body-profile {
+  background: linear-gradient(180deg, #2e3b66 0%, #0e0e0f 100%);
+}
+
+.active-profile {
+  filter: drop-shadow(0px 0px 6px #ed1c24);
+}
 
 @media screen and (min-width: 1028px) {
   .container {
@@ -915,6 +925,7 @@ textarea {
   .fa-cog:hover {
     cursor: pointer;
     color: #ed1c24;
+    filter: drop-shadow(0px 0px 3px #ed1c24);
   }
 
   .hero-banner {
