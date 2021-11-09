@@ -219,7 +219,7 @@ i {
   display: none;
 }
 
-#hamburger-menu:checked ~ .dropdown {
+#hamburger-menu:checked + .dropdown {
   /* show nav */
   display: block;
   transform: translateY(35px);

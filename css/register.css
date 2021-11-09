@@ -120,6 +120,11 @@ textarea:focus::placeholder {
   border: 1px solid black;
 }
 
+.see-password {
+  position: absolute;
+  transform: translate(340px, -42px);
+}
+
 button {
   width: 100%;
   height: 68px;
@@ -128,10 +133,19 @@ button {
   font-family: "exo";
   color: #fff;
   border: none;
-  background-color: #0d0d0d;
+  background-color: #191919;
   padding-left: 20px;
   text-align: left;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+.fa-arrow-right {
+  color: #fff;
+  position: absolute;
+  transform: translate(337px, -45px);
+  font-size: 20px;
+  pointer-events: none;
 }
 
 .line-flex {
@@ -177,7 +191,6 @@ a {
 .terms {
   font-size: 14px;
   width: 339px;
-  text-align: ;
 }
 
 .bold {
@@ -197,9 +210,6 @@ a {
 /* Register page ends */
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
-  .chrome {
-    property: value;
-  }
   .register-password input[type="password"]:not(:placeholder-shown) {
     font-family: "pass";
     font-size: 30px;
@@ -226,5 +236,16 @@ a {
 
   .create-account {
     border-radius: 32px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .inner-account-container {
+    max-width: 374px;
+  }
+
+  .last-first-name input {
+    max-width: 162px;
+    margin-top: 17px;
   }
 }
